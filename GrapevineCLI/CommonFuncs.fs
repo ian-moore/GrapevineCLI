@@ -18,5 +18,4 @@ module CommonFuncs =
             sprintf "%s%s" subtext overflowText
         else text
 
-    let truncateEllipsis (length:int) (text:string) =
-        truncateWithOverflow "..." length text
+    let truncateEllipsis = truncateWithOverflow "..."
